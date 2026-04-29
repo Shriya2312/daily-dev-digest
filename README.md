@@ -37,22 +37,3 @@ npm run build
 npm run preview
 ```
 
-## Deploy
-
-### Vercel (recommended)
-1. Push to GitHub
-2. Go to [vercel.com/new](https://vercel.com/new)
-3. Import your repo
-4. It auto-detects Vite — just click Deploy
-
-### Netlify
-1. Push to GitHub
-2. Go to [app.netlify.com](https://app.netlify.com)
-3. Import repo, set build command to `npm run build` and publish directory to `dist`
-
-## Tech Stack
-
-- React 19
-- Vite
-- Hacker News API (Firebase)
-- Dev.to API
